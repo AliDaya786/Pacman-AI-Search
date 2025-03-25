@@ -5,6 +5,10 @@ This project is part of the UC Berkeley CS188 Artificial Intelligence course. Th
  - Implementing search algorithms like DFS, BFS, UCS, and A*.
  - Developing smart ghost behavior using probability models.
  - Designing effective heuristics to improve Pacman’s decision-making.
+1) Pacman uses the search algorithms (BFS, DFS, UCS, or A*) defined in search.py to determine the optimal path.
+2) Game State Evaluation – The search function processes the current game state and generates possible next moves.
+3) Decision Making – Pacman evaluates the cost or heuristic of each move and selects the one that minimizes distance to the goal while avoiding ghosts.
+4) Movement Execution – Pacman updates his position based on the chosen path and repeats the process until the goal state (collecting food while escaping ghosts) is reached.
 
 ### Key Features
  - Search Algorithms:
