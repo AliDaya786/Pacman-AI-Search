@@ -24,7 +24,7 @@ This project is part of the UC Berkeley CS188 Artificial Intelligence course. Th
 |----------------------|-----------------------------------------------------------------------------------------------------|
 | `search.py`          | Implements DFS, BFS, UCS, and A* algorithms (**My code added under `*** YOUR CODE HERE ***`**)        |
 | `searchAgents.py`    | Defines Pacman’s search-based agents and game strategies (**My code added under `*** YOUR CODE HERE ***`**) |
-| `ghostAgents.py`     | Implements ghost behavior using AI models (**My code added under `*** YOUR CODE HERE ***`**)            |
+| `ghostAgents.py`     | Defines different ghost behaviors, including random movement and strategic chasing using state-based logic. (**My code added under `*** YOUR CODE HERE ***`**)            |
 | `util.py`            | Provides utility functions for data handling.                                                         |
 | `game.py`            | Core game logic and state management.                                                                 |
 | `pacman.py`          | Main file that runs the Pacman game environment.      
