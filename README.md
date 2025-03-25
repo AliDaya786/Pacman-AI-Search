@@ -27,7 +27,7 @@ This project is part of the UC Berkeley CS188 Artificial Intelligence course. Th
 | `ghostAgents.py`     | Implements ghost behavior using AI models (**My code added under `*** YOUR CODE HERE ***`**)            |
 | `util.py`            | Provides utility functions for data handling.                                                         |
 | `game.py`            | Core game logic and state management.                                                                 |
-| `layout.py`          | Defines the game board and layout.      
+| `pacman.py`          | Main file that runs the Pacman game environment.      
 
 
 ![Pacmangif](https://github.com/user-attachments/assets/58a4c95b-f88d-451e-9662-f59b971b9ed1)
