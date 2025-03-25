@@ -8,7 +8,28 @@ This project is part of the UC Berkeley CS188 Artificial Intelligence course. Th
 
 ### Key Features
  - Search Algorithms:
+    - Depth-First Search (DFS) – Explores the deepest nodes first.
+     - Breadth-First Search (BFS) – Explores the shallowest nodes first.
+     - Uniform-Cost Search (UCS) – Explores nodes with the least path cost.
+     - A* – Combines path cost and heuristic to find the shortest path efficiently.
  - Ghost Behavior:
+    - RandomGhost – Moves randomly across the maze.
+    - DirectionalGhost – Strategically chases or evades Pacman based on game state.
  - Heuristics:
+   - Manhattan Distance – Measures the shortest path using grid-based distance.
+   - Custom Heuristics – Designed to optimize Pacman’s movement for better pathfinding.
 
-### Files Included:
+### Files Included
+| **File**              | **Description**                                                                                     |
+|----------------------|-----------------------------------------------------------------------------------------------------|
+| `search.py`          | Implements DFS, BFS, UCS, and A* algorithms (**My code added under `*** YOUR CODE HERE ***`**)        |
+| `searchAgents.py`    | Defines Pacman’s search-based agents and game strategies (**My code added under `*** YOUR CODE HERE ***`**) |
+| `ghostAgents.py`     | Implements ghost behavior using AI models (**My code added under `*** YOUR CODE HERE ***`**)            |
+| `util.py`            | Provides utility functions for data handling.                                                         |
+| `game.py`            | Core game logic and state management.                                                                 |
+| `layout.py`          | Defines the game board and layout.      
+
+
+![Pacmangif](https://github.com/user-attachments/assets/58a4c95b-f88d-451e-9662-f59b971b9ed1)
+
+
